@@ -1,0 +1,32 @@
+{
+  "env": {
+    "DISABLE_AUTOUPDATER": "1"
+  },
+  "permissions": {
+    "allow": [
+      "mcp__codegraph__*"
+    ],
+    "defaultMode": "bypassPermissions"
+  },
+  "model": "opus[1m]",
+  "skillOverrides": {
+    "android-project-analyst-team": "off",
+    "android-to-kmp-migrator-team": "off",
+    "kmp-migration-orchestrator": "off",
+    "kmp-test-validator-team": "off",
+    "debug-issue": "off",
+    "explore-codebase": "off",
+    "refactor-safely": "off",
+    "review-changes": "off"
+  },
+  "enabledPlugins": {
+    "superpowers@claude-plugins-official": true,
+    "ponytail@ponytail": true,
+    "caveman@caveman": true
+  },
+  "outputStyle": "Concise",
+  "skipDangerousModePermissionPrompt": true,
+  "theme": "dark",
+  "inputNeededNotifEnabled": true,
+  "agentPushNotifEnabled": true
+}
